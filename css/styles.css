@@ -94,11 +94,23 @@ body {
   background: #fff none;
 }
 
+/*
+* Common styles
+*/
+
+.with-shadow {
+  filter: drop-shadow(0 0.25rem 2rem rgba(0, 0, 0, 0.12));
+}
+
+/*
+* Specific styles
+*/
+
 div.hero-bg {
   background: url(../img/hero_bg.png) no-repeat center center;
   background-size: cover;
 }
 
-.with-shadow {
-  filter: drop-shadow(0 0.25rem 2rem rgba(0, 0, 0, 0.12));
+div.product-thumb-img {
+  background: url(../img/product_bg.png) no-repeat center center;
 }
